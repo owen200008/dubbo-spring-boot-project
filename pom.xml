@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
-        <version>19</version>
+        <version>21</version>
     </parent>
 
     <groupId>org.apache.dubbo</groupId>
@@ -38,7 +38,7 @@
     <properties>
         <maven_javadoc_version>3.0.1</maven_javadoc_version>
         <maven_surefire_version>2.19.1</maven_surefire_version>
-        <revision>2.7.1</revision>
+        <revision>2.7.2-fix-2</revision>
     </properties>
 
     <modules>
@@ -187,5 +187,16 @@
             </plugin>
         </plugins>
     </build>
-
+    <distributionManagement>
+        <repository>
+            <id>deployRelease</id>
+            <name>netfinworks Internal Repository</name>
+            <url>http://nexus.closeli.cc/repository/Releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deploySnapshot</id>
+            <name>netfinworks Internal Repository</name>
+            <url>http://nexus.closeli.cc/repository/Snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>

@@ -189,14 +189,14 @@
     </build>
     <distributionManagement>
         <repository>
-            <id>deployRelease</id>
-            <name>netfinworks Internal Repository</name>
-            <url>http://nexus.closeli.cc/repository/Releases/</url>
+            <id>nexus-releases</id>
+            <name>Nexus Releases Repository</name>
+            <url>http://nexus.vaas.plus/repository/NXE/</url>
         </repository>
         <snapshotRepository>
-            <id>deploySnapshot</id>
-            <name>netfinworks Internal Repository</name>
-            <url>http://nexus.closeli.cc/repository/Snapshot/</url>
+            <id>nexus-snapshots</id>
+            <name>Nexus Snapshots Repository</name>
+            <url>http://nexus.vaas.plus/repository/NXE/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>

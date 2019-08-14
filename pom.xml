@@ -187,16 +187,4 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>Nexus Releases Repository</name>
-            <url>http://nexus.vaas.plus/repository/NXE/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <name>Nexus Snapshots Repository</name>
-            <url>http://nexus.vaas.plus/repository/NXE/</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
